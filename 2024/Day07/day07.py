@@ -22,14 +22,16 @@ with open('day07.txt') as f:
 total = 0
 for eq in equations:
     output, inputs = eq
-    possibilities = [inputs[0]]
+    possibilities = [(inputs[0], str(inputs[0]))]
     for inp in inputs[1:]:
         new = []
-        for value in possibilities:
-            new += [value + inp, value * inp]
+        for (value, m) in possibilities:
+            new += [(value + inp, f'{m.split("=")[0]}+ {inp} = {value} + {inp}'), (value * inp, f'{m.split("=")[0]} * {inp} = {value} * {inp}')]
         possibilities = new
-    if output in possibilities:
-        total += output
+    for p, m in possibilities:
+        if p == output:
+            total += output
+            break
 print(total)
 
 total = 0

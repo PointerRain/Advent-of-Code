@@ -54,9 +54,7 @@ for oy, line in enumerate(grid):
                 if grid[ny][nx] != c or (nx, ny) == (ox, oy):
                     continue
                 dx, dy = nx - ox, ny - oy
-                lcd = gcd(dx, dy)
-                dx //= lcd
-                dy //= lcd
+                dx, dy = dx // gcd(dx, dy), dy // gcd(dx, dy)
                 x, y = ox, oy
                 while 0 <= x < width and 0 <= y < height:
                     x += dx
