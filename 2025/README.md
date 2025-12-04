@@ -11,6 +11,7 @@ Additionally, there is a `dayN.txt` file that contains the input for that day, a
 | Day | Star 1   | Star 2   | Total    |
 |-----|----------|----------|----------|
 | 1   | 00:04:23 | 00:02:55 | 00:07:18 |
+| 2   | 00:05:51 | 00:11:00 | 00:16:51 |
 
 ## Use of AI
 GitHub Copilot inline suggestions were used at times while solving puzzles, however Copilot Chat and other generative AI software were never used while solving puzzles.
