@@ -12,8 +12,17 @@ Additionally, there is a `dayN.txt` file that contains the input for that day, a
 |-----|----------|----------|----------|
 | 1   | 00:04:23 | 00:02:55 | 00:07:18 |
 | 2   | 00:05:51 | 00:11:00 | 00:16:51 |
+| 3   | 00:08:27 | 00:13:55 | 00:22:22 |
 
 ## Use of AI
 GitHub Copilot inline suggestions were used at times while solving puzzles, however Copilot Chat and other generative AI software were never used while solving puzzles.
 
 GitHub Copilot Chat was used at times to simplify the code after the fact in the `dayN_complete.py` files.
+
+# Desmos
+After solving in Python, I sometimes attempt the puzzles in Desmos for fun, also attempting to use the fewest lines.
+
+They can be found here:
+- [Day 1](https://www.desmos.com/calculator/iigkarodlv)
+- [Day 2](https://www.desmos.com/calculator/wdqf7n5yig) (part 1 only)
+- [Day 3](https://www.desmos.com/calculator/j85mpu9s7k)
