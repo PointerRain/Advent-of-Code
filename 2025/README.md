@@ -14,6 +14,7 @@ Additionally, there is a `dayN.txt` file that contains the input for that day, a
 | 2   | 00:05:51 | 00:11:00 | 00:16:51 |
 | 3   | 00:08:27 | 00:13:55 | 00:22:22 |
 | 4   | 00:04:37 | 00:03:07 | 00:07:44 |
+| 5   | 00:04:03 | 00:19:02 | 00:23:05 |
 
 ## Use of AI
 GitHub Copilot inline suggestions were used at times while solving puzzles, however Copilot Chat and other generative AI software were never used while solving puzzles.
@@ -27,3 +28,4 @@ They can be found here:
 - [Day 1](https://www.desmos.com/calculator/iigkarodlv)
 - [Day 2](https://www.desmos.com/calculator/wdqf7n5yig) (part 1 only)
 - [Day 3](https://www.desmos.com/calculator/j85mpu9s7k)
+- [Day 5](https://www.desmos.com/calculator/nertgqzqfu) (part 1 only)
